@@ -2,8 +2,8 @@ sudo passwd root → untuk membuat password terminal super user
 
 sudo sh -c 'echo "deb http://download.webmin.com/download/repository sarge contrib" > /etc/apt/sources.list.d/webmin.list' → untuk menambahkan repository webmin
 
-wget http://www.webmin.com/jcameron-key.asc | sudo apt-key add jcameron-key.asc → untuk menambahkan public key agar kita bisa install webmin dan akses webmin di server kita
-
+wget http://www.webmin.com/jcameron-key.asc 
+sudo apt-key add jcameron-key.asc→ untuk menambahkan public key agar kita bisa install webmin dan akses webmin di server kita
 sudo apt update → mengupdate apt/package server kita
 
 sudo apt install webmin → untuk menginstall webmin di server kita
