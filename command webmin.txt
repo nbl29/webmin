@@ -10,3 +10,4 @@ sudo apt install webmin → untuk menginstall webmin di server kita
 
 sudo ufw allow 10000 → untuk mengizinkan akses port 10000
 
+sudo add-apt-repository "deb http://download.webmin.com/download/repository sarge contrib"
